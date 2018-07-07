@@ -22,3 +22,18 @@ h2::after {
     background-image: url("paper.gif");
     flex:1;
 }
+.headingfonts > h1 {
+    font:300 200%.9 FF Meta VF, sans-serif;
+    text-align: center;
+    background: #ddd;
+}
+
+.headingfonts > h1 div:nth-child(1){
+    font-size: 1.5em;
+    font-weight:190;
+}
+.headingfonts > h1 div:nth-child(4){
+    font-size: 1.5em;
+    font-weight:190;
+    background: red;
+}
