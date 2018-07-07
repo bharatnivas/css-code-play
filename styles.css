@@ -1,0 +1,24 @@
+.firstcreation > h1{
+    display:flex;
+    width:100%;
+    align-items: center;
+}
+.firstcreation >h1::before,
+h1::after{
+    content: "";
+    background:gray;
+    height: .2em;
+    flex: 1;
+    margin:.2em;
+}
+.secondcreation >h2{
+    display:flex;
+    width:100%;
+}
+.secondcreation >h2::before,
+h2::after {
+    content: "";
+    background:yellow;
+    background-image: url("paper.gif");
+    flex:1;
+}
